@@ -2,7 +2,7 @@
 чётные числа от 1 до N.
 5 -> 2, 4
 8 -> 2, 4, 6, 8'''
-n = int(input())
+n = int(input("Введите число: "))
 for el in range(n+1):
     if el % 2 ==0:
         print(el)
